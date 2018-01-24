@@ -79,7 +79,7 @@ $('#banner-slider<?php echo $sliderId; ?>').owlSlider({
 	nav:<?php echo $navigation; ?>,
 	navText:['<','>'],
 	smartSpeed:450,
-	loop:true,
+	loop: $('.owl-carousel .item').size() > 1 ? true:false,
 	autoplayHoverPause:true,
 	dots:<?php echo $pagination; ?>
 });
