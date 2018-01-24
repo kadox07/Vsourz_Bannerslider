@@ -11,10 +11,10 @@ For you to integrate Responsive Owl Slider extension in your Magento website, pl
  1. Install the extension from Magento Connect
  2. Create Category, Upload Image Banners, Select Category and Select
     Effects you want
- 3. Insert the Code Snippet where the banners to be shown
+ 3. Insert the Code Snippet where the banners to be shown: {{block type="bannerslider/bannerslider" name="bannerslider" template="bannerslider/bannerslider.phtml"}}
+ 4. Allow block permission "bannerslider/bannerslider"
 
 Demo Link: http://extensiondemo.vsourz.co/responsive-owl-slider
-Magento Connect: https://www.magentocommerce.com/magento-connect/responsive-owl-slider.html
 
 Features:
 
